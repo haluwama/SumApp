@@ -1,0 +1,41 @@
+{
+  "categorization": {
+    "type": "GAME",
+    "category": "Educational"
+  },
+  "description": {
+    "texts": {
+      "title": "SumApp",
+      "features": [
+        ""
+      ],
+      "short-description": "",
+      "full-description": "",
+      "keywords": "",
+      "recent-changes": "",
+      "privacy-policy": "",
+      "eula": ""
+    },
+    "images": {
+      "screenshots": [],
+      "app-icon-small": "",
+      "app-icon": "",
+      "small-promo": "",
+      "large-promo": ""
+    },
+    "videos": {
+      "video-url": ""
+    }
+  },
+  "packages": {
+    "apk-file": "",
+    "zip-xdk-compliant": false,
+    "zip-file": "",
+    "secondary-apk-file": ""
+  },
+  "support": {
+    "email": "",
+    "website": ""
+  },
+  "testing-instructions": ""
+}

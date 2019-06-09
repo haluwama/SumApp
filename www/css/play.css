@@ -1,0 +1,152 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("Roboto-Regular.ttf") format("opentype");
+	/* Make sure you defined the correct path, which is related to
+            the location of your file `my_css.css` */
+}
+
+html,
+body {
+	font-family: 'Roboto';
+	overflow: hidden;
+}
+
+@-ms-viewport {
+	width: 100vw;
+	zoom: 100%;
+}
+
+@viewport {
+	width: 100vw;
+	zoom: 100%;
+}
+
+@-ms-viewport {
+	user-zoom: fixed;
+}
+
+@viewport {
+	user-zoom: fixed;
+}
+
+body {
+	padding: 4px;
+}
+
+#scoreMaintain {
+	display: table;
+	float: right;
+}
+
+#score {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 4px;
+}
+
+#scoreStar {
+	color: gold;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#bestScore {
+	display: table-cell;
+	vertical-align: middle;
+	color: gold;
+	padding-left: 4px;
+}
+
+#mainNumber {
+	font-size: 30px;
+}
+
+#undo {
+	color: #7FDBFF;
+}
+
+#hourglass,
+#counter {
+	color: #FF4136;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
+	margin-top: 2%;
+}
+
+.menu li {
+	width: 25%;
+	float: left;
+}
+
+.przyciski {
+	width: 90%;
+	height: 50px;
+	margin-top: 5px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#tmpResult {
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#resetGame {
+	margin-right: 5%
+}
+
+#checkGame {
+	margin-left: 5%
+}
+
+.padding_top {
+	padding-top: 6.66%;
+}
+
+.fade.in {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modal {
+	text-align: center;
+	padding: 0!important;
+	outline: none;
+	outline-color: rgba(255, 255, 255, 0);
+}
+
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+}
+
+::selection {
+	color: none;
+	background: none;
+	cursor: none;
+}
+
+.margintop15 {
+	margin-top: 15%;
+}
+
+.margintop20 {
+	margin-top: 20%;
+}
+
+.margintop25 {
+	margin-top: 25%;
+}

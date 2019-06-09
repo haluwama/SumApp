@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("Roboto-Regular.ttf") format("opentype");
+	/* Make sure you defined the correct path, which is related to
+            the location of your file `my_css.css` */
+}
+
+html,
+body {
+	font-family: 'Roboto';
+	overflow: hidden;
+	/*background: #232323*/
+	/*background: #615e5f;*/
+}
+
+@-ms-viewport {
+	width: 100vw;
+	zoom: 100%;
+}
+
+@viewport {
+	width: 100vw;
+	zoom: 100%;
+}
+
+@-ms-viewport {
+	user-zoom: fixed;
+}
+
+@viewport {
+	user-zoom: fixed;
+}
+
+#title {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.menu {
+	margin-top: 10%;
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+}
+
+.item {
+	margin-top: 5%;
+}
+
+.modal {
+	text-align: center;
+	padding: 0!important;
+}
+
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+	/* Adjusts for spacing */
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 70%;
+}
+
+::selection {
+	color: none;
+	background: none;
+	cursor: none;
+}
+
+.in {
+	margin-top: 0px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#hidden_panel {
+	position: absolute;
+	bottom: -100%
+}
+
+#sound {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#vibration {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#skin {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}

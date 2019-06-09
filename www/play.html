@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Play</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/katex.min.css">
+	<link id="styleHref" rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/play.css">
+
+
+	<style>
+		#classic {
+			-webkit-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+	</style>
+
+	<script src="cordova.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div id="menu_const" class="row">
+			<div class="col-xs-6">
+				<p class="text-left">
+					<i id="pauseMenu" class="fa fa-pause-circle fa-3x"></i>
+				</p>
+			</div>
+			<div class="col-xs-6">
+				<p id="scoreMaintain" class="text-right">
+					<span id="score"></span>
+					<i id="scoreStar" class="fa fa-star fa-3x"></i>
+					<span id="bestScore"></span>
+				</p>
+			</div>
+		</div>
+
+		<div id="classic">
+		</div>
+
+		<div class="modal fade" id="modalPause" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-6 text-center">
+								<a href="index.html" class="btn btn-danger"><i class="fa fa-home fa-5x"></i></a>
+							</div>
+							<div class="col-xs-6 text-center">
+								<a id="dismissModalPause" class="btn btn-success dismissModal"><i class="fa fa-play fa-5x"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modalExit" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title"><i class="fa fa-thumbs-down"></i></h3>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-6 text-center">
+								<a href="index.html" class="btn btn-danger"><i class="fa fa-home fa-5x"></i></a>
+							</div>
+							<div class="col-xs-6 text-center">
+								<a id="dismissModalExit" class="btn btn-info"><i class="fa fa-play fa-5x"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="lib/js/jquery-3.1.0.min.js"></script>
+	<script src="lib/js/bootstrap.min.js"></script>
+	<script src="lib/js/bootstrap-notify.min.js"></script>
+	<script src="lib/js/katex.min.js"></script>
+	<script src="js/Play/MyStorage.js"></script>
+	<script src="js/Play/MyLocalization.js"></script>
+	<script src="js/Play/MyField.js"></script>
+	<script src="js/Play/MyAssets.js"></script>
+	<script src="js/Play/MySound.js"></script>
+	<script src="js/Play/MyNotify.js"></script>
+	<script src="js/Play/MyAchievements.js"></script>
+	<script src="js/Play/MyProfile.js"></script>
+	<script src="js/Play/MySkin.js"></script>
+	<script src="js/Play/MVC/PlayClassic/M/PlayClassicModel.js"></script>
+	<script src="js/Play/MVC/PlayClassic/C/PlayClassicController.js"></script>
+	<script src="js/Play/MVC/PlayDivide/M/PlayDivideModel.js"></script>
+	<script src="js/Play/MVC/PlayDivide/C/PlayDivideController.js"></script>
+	<script src="js/Play/MVC/PlayPow/M/PlayPowModel.js"></script>
+	<script src="js/Play/MVC/PlayPow/C/PlayPowController.js"></script>
+	<script src="js/Play/MVC/PlayRoot/M/PlayRootModel.js"></script>
+	<script src="js/Play/MVC/PlayRoot/C/PlayRootController.js"></script>
+
+	<script src="js/Play.js"></script>
+
+</body>
+
+</html>
